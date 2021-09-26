@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Comic Sans MS', arial;
+    src: url(./police/comic-sans-ms.ttf);
+}
+
+html {
+    background-image: url(./images/Japanese-cuisine-meals-seafood_1920x1440.jpg);
+    background-color: #F7B03B;
+}
+
+.content {
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Comic Sans MS';
+    background-color: rgba(233, 195, 126, 0.7);
+
+    border: thick double #A97114;
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+}
+
+#chargementHidden {
+    display: none;
+}
+
+#pCategorie {
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+}
+
+hr {
+    width: 50%;
+    height: 1px;
+    border: 0;
+	color: black;
+	background-color: black;
+}
+
+button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    font-size: initial;
+  }
+
+.hidden {
+    display: none;
+    border: thick double #A97114;
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+}
+
+img {
+    width:40%;
+    height: fit-content;
+}
+
+div {
+    font-weight: normal;
+}
+
+.instruMeal {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: rgba(233, 195, 126, 0.7);
+    width: 75%;
+    font-family: 'Comic Sans MS';
+    display: flex;
+    position: relative;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+
+    border: thick double #A97114;
+    border-top-left-radius: 110px 19px;
+    border-top-right-radius: 110px 19px;
+    border-bottom-left-radius: 37px 140px;
+    border-bottom-right-radius: 37px 140px;
+}
+
+nav .menu-item {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    min-height: 7.5em;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+
+nav .menu-text, nav .menu-text a {
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+
+nav .menu-text a:hover {
+    color: #714A0A
+}
+
+.active {
+    animation: fadein 1.5s;
+    height: 100%;
+    background-color: rgba(233, 195, 126);
+    margin: 5%;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.contenuMealPrinc {
+    display: flex;
+    
+}
+
+.contenuMealSecond {
+    display: flex;
+    padding: 30px;
+}
+
